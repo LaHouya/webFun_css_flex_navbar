@@ -1,0 +1,35 @@
+header{display:flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: center;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px; 12px; 10px; 12px;
+}
+#nav-menu{
+    list-style-type: none;
+    }
+#nav-menu li{
+        display:inline;
+        }
+#nav-menu{
+        margin-inline-start: 10px;
+        background-color: lightblue;
+        display:right;
+        direction: column;
+        justify-content:flex-end;
+        align-items: center;
+        font-size: medium;
+        outline-color: black;
+        }
+a{
+    border:2px black;
+    padding: 1px; 2px; 3px; 4px;
+    margin: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: navy;
+}
